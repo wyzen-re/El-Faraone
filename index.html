@@ -3,94 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>El Faraone Barber</title>
+  <title>El Faraone Barber Shop</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <header class="header">
-    <h1>EL <span>FARAONE</span></h1>
+  <header class="navbar">
+    <div class="logo">El Faraone</div>
     <nav>
-      <a href="#home" class="active">Home</a>
+      <a href="#about">Chi Siamo</a>
       <a href="#services">Servizi</a>
-      <a href="#about">Chi siamo</a>
-      <a href="#contact">Contatti</a>
+      <a href="#location">Dove Siamo</a>
     </nav>
   </header>
 
   <!-- HERO -->
-  <section id="home" class="hero">
-    <h2>Barberia <span>Tradizionale</span></h2>
-    <p>
-      Tagli moderni, stile classico.  
-      Cura, precisione e rispetto della tradizione.
-    </p>
-    <a href="#contact" class="btn">Prenota ora</a>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <h2>Servizi</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Taglio Uomo</h3>
-        <p>Tagli moderni e classici su misura.</p>
-      </div>
-
-      <div class="card">
-        <h3>Barba</h3>
-        <p>Rasatura e modellatura professionale.</p>
-      </div>
-
-      <div class="card">
-        <h3>Taglio + Barba</h3>
-        <p>Servizio completo con rifiniture.</p>
-      </div>
-    </div>
+  <section class="hero">
+    <h1>Barberia Tradizionale</h1>
+    <p>Stile, precisione e rispetto della tradizione</p>
+    <a href="#location" class="btn">Trovaci</a>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section dark">
-    <h2>Chi siamo</h2>
+  <section id="about" class="section">
+    <h2>Chi Siamo</h2>
     <p>
-      El Faraone nasce dalla passione per la barberia.
-      Professionalità, igiene e stile per ogni cliente.
+      El Faraone è una barberia italiana che unisce tradizione e professionalità.
+      Ogni taglio è curato nei minimi dettagli, con attenzione allo stile e alla persona.
     </p>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2>Contatti</h2>
-
-    <div class="contact-grid">
-      <div class="contact-box">
-        <h3>Orari</h3>
-        <p>Lunedì – Sabato</p>
-        <p>09:00 – 19:00</p>
-        <p>Domenica chiuso</p>
-      </div>
-
-      <div class="contact-box">
-        <h3>Dove siamo</h3>
-        <iframe
-          src="https://www.google.com/maps?q=Rome%20Italy&output=embed"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-    </div>
-
-    <a href="https://wa.me/390000000000" class="btn outline">
-      WhatsApp
-    </a>
+  <!-- SERVICES -->
+  <section id="services" class="section dark">
+    <h2>Servizi</h2>
+    <ul class="services">
+      <li>Taglio Classico</li>
+      <li>Sfumature Moderne</li>
+      <li>Barba & Modellatura</li>
+      <li>Rasatura Tradizionale</li>
+    </ul>
   </section>
 
+  <!-- LOCATION -->
+  <section id="location" class="section">
+    <h2>Dove Siamo</h2>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps?q=El+Faraone+Barber+Shop&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <p class="address">
+      📍 Roma, Italia
+    </p>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    © 2026 El Faraone Barber
+    <p>© 2026 El Faraone Barber Shop</p>
   </footer>
 
   <script src="script.js"></script>
