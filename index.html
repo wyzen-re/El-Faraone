@@ -1,92 +1,74 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>El Faraone Barber</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="header">
-    <h1>EL <span>FARAONE</span></h1>
-    <nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#services">Servizi</a>
-      <a href="#gallery">Galleria</a>
-      <a href="#about">Chi siamo</a>
-      <a href="#contact">Contatti</a>
-    </nav>
-  </header>
+<header class="header">
+  <h1>EL <span>FARAONE</span></h1>
+  <nav>
+    <a href="#services">Servizi</a>
+    <a href="#gallery">Galleria</a>
+    <a href="#contact">Contatti</a>
+  </nav>
+</header>
 
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <h2>Barberia <span>Tradizionale</span></h2>
-    <p>Tagli moderni, stile classico. Cura e precisione.</p>
-    <a href="#contact" class="btn">Prenota ora</a>
-  </section>
+<section class="hero">
+  <h2>Barberia Tradizionale</h2>
+  <p>Tagli classici, sfumature moderne e attenzione al dettaglio.  
+     Nel cuore dell’Italia.</p>
+  <button>Prenota Ora</button>
+</section>
 
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <h2>Servizi</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Taglio Uomo</h3>
-        <p>Stile moderno e classico.</p>
-      </div>
-      <div class="card">
-        <h3>Barba</h3>
-        <p>Rasatura e modellatura.</p>
-      </div>
-      <div class="card">
-        <h3>Taglio + Barba</h3>
-        <p>Servizio completo.</p>
-      </div>
+<section id="services" class="section">
+  <h2>Servizi</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1200&auto=format&fit=crop">
+      <h3>Taglio Classico</h3>
+      <p>Precisione, stile e tradizione.</p>
     </div>
-  </section>
 
-  <!-- GALLERY -->
-  <section id="gallery" class="section dark">
-    <h2>Galleria</h2>
-
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033" alt="Taglio barba">
-      <img src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1" alt="Barber shop">
-      <img src="https://images.unsplash.com/photo-1622288432450-277d0fef5ed4" alt="Taglio uomo">
-      <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1" alt="Interno barberia">
-      <img src="https://images.unsplash.com/photo-1517832606294-3c52d9c9b5b6" alt="Taglio capelli">
-      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Barba">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593702281949-6f0a5b0bfa91?q=80&w=1200&auto=format&fit=crop">
+      <h3>Sfumatura</h3>
+      <p>Linee pulite e moderne.</p>
     </div>
-  </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>Chi siamo</h2>
-    <p>
-      El Faraone nasce dalla passione per la barberia.
-      Qualità, stile e rispetto della tradizione.
-    </p>
-  </section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop">
+      <h3>Barba</h3>
+      <p>Cura e rifinitura professionale.</p>
+    </div>
+  </div>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section dark">
-    <h2>Contatti</h2>
-    <p>📍 Italia</p>
-    <p>📞 +39 000 000 0000</p>
-    <p>🕒 Lun–Sab: 9:00 – 19:00</p>
+<section id="gallery" class="section dark">
+  <h2>Galleria</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
+    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop">
+    <img src="https://images.unsplash.com/photo-1621605810052-809c9c03c75b?q=80&w=1200&auto=format&fit=crop">
+  </div>
+</section>
 
-    <a href="https://wa.me/390000000000" class="btn outline">
-      WhatsApp
-    </a>
-  </section>
+<section id="contact" class="section">
+  <h2>Contatti</h2>
+  <p>📍 Italia<br>📞 +39 000 000 000</p>
+</section>
 
-  <footer>
-    © 2026 El Faraone Barber
-  </footer>
+<footer>
+  © 2026 El Faraone Barber
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
